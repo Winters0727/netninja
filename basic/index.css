@@ -1,0 +1,43 @@
+/***********************************
+  Author : Winters
+  Tutor : Netninja
+************************************/
+
+/* Style related to header */
+
+/* #header {
+    position: absolute;
+} */
+
+#header h1 {
+    font-size: 32px;
+    color: blue;
+}
+
+#header h2 {
+    font-size: 20px;
+    color: green;
+}
+
+/* Style all p tags */
+
+p {
+    font-size: 12px;
+    color: red;
+}
+
+/* Targetting Elements / Tags */
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+div {
+    width: 100%;
+    background-color: grey;
+}
