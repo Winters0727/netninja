@@ -1,0 +1,5 @@
+/* Adjacent Selector */
+
+#all-articles h2 + p + p {
+    color: green;
+}

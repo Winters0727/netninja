@@ -13,3 +13,20 @@
     color: red;
 } */
 
+
+/* Child Selector */
+/* #main-content > p {
+    color: red;
+} */
+
+span[class] {
+    color: purple;
+}
+
+div[id] {
+    background-color: grey;
+}
+
+a[title] {
+    color: red;
+}
