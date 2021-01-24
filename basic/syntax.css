@@ -28,5 +28,21 @@ div[id] {
 }
 
 a[title] {
-    color: red;
+    color: blue;
+}
+
+a:hover {
+    color : red;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: purple;
+}
+
+#main-content:hover {
+    background-color: red;
 }

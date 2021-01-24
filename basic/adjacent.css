@@ -1,5 +1,9 @@
 /* Adjacent Selector */
 
-#all-articles h2 + p + p {
+/* #all-articles h2 + p + p {
     color: green;
+} */
+
+article:nth-of-type(odd) {
+    background: grey;
 }
