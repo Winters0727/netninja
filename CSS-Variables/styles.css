@@ -1,5 +1,23 @@
 /* --- Variables --- */
 
+:root {
+    --theme-color : #3e84da;
+    --link-color : #daa33e;
+    --layout : 1fr 1fr 1fr;
+}
+
+/* Override */
+
+nav {
+    --theme-color : #000;
+}
+
+@media screen and (max-width:760px) {
+    :root {
+        --layout : 1fr;
+    }
+}
+
 /* --- Main styles --- */
 
 h1, h2, h3{
@@ -22,11 +40,11 @@ nav.main-nav ul{
 }
 
 nav a{
-    color: #daa33e;
+    color: var(--link-color);
 }
 
 .banner{
-    background: #3e84da;
+    background: var(--theme-color);
     color: #fff;
     font-size: 1.6em;
     text-align: center;
@@ -48,7 +66,7 @@ nav a{
 }
 
 .spot h2{
-    color: #3e84da;
+    color: var(--theme-color);
 }
 
 .spot p{

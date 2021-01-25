@@ -46,6 +46,29 @@
     margin-top: 100px;
 }
 
+section, aside {
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.columns:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.content p {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    -webkit-column-rule: solid red;
+    column-rule: solid red;
+    text-align: justify;
+}
+
 /* img {
     float: right;
     margin: 10px;
